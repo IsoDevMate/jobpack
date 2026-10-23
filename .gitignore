@@ -1,0 +1,24 @@
+# --- Personal data: NEVER commit your real profile, CVs, or applications ---
+profile/user.json
+profile/facts.json
+profile/learned.json
+profile/SEND_DISABLED
+profile/sources/
+base-cvs/*/cv.pdf
+base-cvs/*/source.docx
+applications/
+logs/
+docs/private/
+*.ledger.jsonl
+
+# --- Credentials ---
+.env.gmail
+.env
+.env.local
+
+# --- Local artifacts ---
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+node_modules/

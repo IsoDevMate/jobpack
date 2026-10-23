@@ -1,0 +1,10 @@
+{
+  "_comment": "profile/learned.json grows automatically when the corrector loop runs (scripts/learn.py). Start empty; every user correction becomes a never_again guard.",
+  "updated_from": "logs/apply.jsonl",
+  "never_again": [],
+  "after_every_rank": [
+    "Append to logs/apply.jsonl",
+    "Re-run scripts/learn.py",
+    "New user facts go in profile/facts.json (gitignored)"
+  ]
+}

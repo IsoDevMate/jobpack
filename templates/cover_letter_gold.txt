@@ -1,0 +1,47 @@
+# Gold cover letter shape (Times, plain paragraphs, no dashes with AI smell)
+
+Header block (top-left, bold name, then contact lines):
+    YOUR NAME
+    your phone
+    your email
+    Your city
+
+Date, then the address block:
+    Graduate Programme Team / Hiring Team
+    <Company>
+    <City>
+
+Salutation:  Dear Hiring Team,
+
+Para 1 - who I am + interest + hard eligibility hook:
+    I am applying for the <exact JD title> at <Company>. I hold <degree from
+    facts.json>, so <one eligibility fact you can prove>, and I am interested
+    in this role because <one sentence connecting their problem to work you
+    already do>.
+
+Para 2 - the strongest proof:
+    Ship-facing sentence with a name and an outcome. "I shipped a live <thing>
+    inside <project>: <what you built>, <how measured>, <what fails it guards
+    against>." One paragraph, no tool laundry list, no "I have experience with".
+
+Para 3 - the second proof:
+    A different job from the CV with a concrete outcome. "At <employer> I
+    <action verb> <thing> so <business consequence>." Only employers that are
+    on the CV. Never "I do not have X".
+
+Para 4 - availability, no thank-you yet:
+    "I am based in <city> and available to start <when>. I close by naming the
+    employer's real values in one honest sentence."
+
+Auto-close (pdf_letter.py appends):
+    Thank you for your time. I look forward to your response.
+    Yours sincerely,
+    <name>, <phone>, <email>
+
+Hard rules:
+- Never "I want this role because" (use "I am interested in this role because").
+- Never "Your role asks for X. That matches Y." (formula; flagged by gates).
+- Never em-dash (—) or en-dash (–). ASCII hyphen only.
+- Never "I do not have" / "I am not a" / any gap sentence.
+- Max 2 uses of "I work with / I have experience / I have worked".
+- Name the same employers that appear on the attached CV. No new ones, no omissions of the pages it cites.

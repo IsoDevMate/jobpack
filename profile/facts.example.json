@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy to profile/facts.json (gitignored) and fill with YOUR truth. Every claim printed on a CV or letter must exist here or in an attested source the user supplied. The reviewer reads education and experience_policy; add your own sections freely.",
+  "applicant": "REPLACE Your Name",
+  "education": "BSc. Example Discipline, Example University",
+  "graduated_year": "REPLACE-year",
+  "experience_policy": {
+    "rule": "Never refuse a tech/IT job only because the JD asks for more years than the applicant has. HR wish-lists are noisy. Score tools and responsibilities actually held, mark stretch, still refuse wrong domains and hard eligibility bars (e.g. current-student-only when graduated).",
+    "years_in_field": 2,
+    "flexibility_years": 2
+  }
+}

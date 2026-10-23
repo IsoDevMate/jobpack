@@ -1,0 +1,24 @@
+{
+  "_comment": "Copy this file to profile/user.json and fill it in with YOUR data. profile/user.json is gitignored - never commit your real copy. Keep it fictional-safe: these values become printed PDFs, attachment filenames, and email credentials.",
+  "full_name": "REPLACE Your Name",
+  "email": "REPLACE you@example.com",
+  "phone": "REPLACE +00 000 000 0000",
+  "city": "REPLACE Your City, Country",
+  "filename_prefix": "REPLACE Your_Name",
+  "years_in_field": 2,
+  "flexibility_years": 2,
+  "recent_year": "2026",
+  "required_links": [
+    "mailto:you@example.com",
+    "https://www.linkedin.com/in/REPLACE-me",
+    "https://github.com/REPLACE-me"
+  ],
+  "link_labels": [
+    { "label": "Email", "url": "mailto:you@example.com" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/REPLACE-me" },
+    { "label": "Portfolio", "url": "https://REPLACE-me.example.dev" }
+  ],
+  "named_employers": [],
+  "ict_evidence": ["first-line", "first-level"],
+  "preview_dir": "~/Documents/jobpack-preview"
+}
